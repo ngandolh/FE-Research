@@ -1,0 +1,29 @@
+#Loop statements
+
+1. for
+- Used to repeat a block of code a specific number of times.
+
+2. while 
+- Repeat a block of code while a condition is true 
+
+3. for...of 
+- Iterate over iterable objects (like arrays)
+
+4. for...in 
+- Iterates over the enumerable properties of an object. 
+
+5. foreach 
+- A method for arrays that executes a provided function once for each array element
+
+### Summary Table / Bảng tóm tắt
+
+| Loop Type   | Iterates Over           | Usable On      | Can Break Early? |
+|-------------|------------------------|----------------|------------------|
+| for...of    | Values                  | Array, String  | Yes              |
+| for...in    | Keys/Property names     | Object, Array  | Yes              |
+| forEach     | Values                  | Array          | No               |
+
+- **for...of:** Dùng để lấy giá trị từng phần tử (thường dùng với mảng).
+- **for...in:** Dùng để lấy key hoặc thuộc tính (thường dùng với object), dùng array vẫn được
+NOTE: for...in không đảm bảo chính xác thứ tự trong mảng.
+- **forEach:** Dùng cho mảng, không thể dùng `break` hoặc `continue`.
