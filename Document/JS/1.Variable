@@ -1,0 +1,25 @@
+#Variable
+1. var
+- Is used to declare variables, scope is function or global.
+- Can be redeclared and reassigned.
+**Hositing**:
+console.log(a); - underfined
+var a = 5;
+
+2. let
+- Declares variables with block scope (inside {})
+- Cannot be redeclared in the same block, but can be reassigned.
+**Hoisting**: 
+//console.log(b); - ReferenceError
+let b = 10;
+
+3. const
+- Declares constants, block scope
+- Cannot be redeclared or reassigned.
+**Hoisting**:
+const c = 15;
+
+const arr = [1,2,3];
+arr.push(4);
+//arr = [5,6]; - Error
+
