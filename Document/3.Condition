@@ -1,0 +1,7 @@
+#Condition statements
+
+1. if..else 
+- Used to exceute code blocks based on a Condition
+
+2. switch 
+- Used to select one of many code blocks to execute 
