@@ -1,0 +1,25 @@
+#Function
+
+1. Function Declaration 
+- Traditional way to declare a function 
+
+2. Arrow function 
+- Shorter syntax, does not have its own `this`
+
+3. Default Parameters
+- Set default values for function parameters
+
+4. Rest Parameters 
+- Collects all remaining arguments into an array 
+
+5. Spread Operator
+- Expands elements of an array or object
+
+6. Function Expression
+- Functions can also be assigned to variables 
+
+7. Anonymous Function 
+- Functions without a name, often used as arguments 
+
+8. Callback function 
+- A function passed as an argument to another function 
