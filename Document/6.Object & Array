@@ -1,0 +1,22 @@
+# Object & Array Destructuring
+
+1. Object Destructuring 
+- Extract properties from an object and assign them to variables
+
+2. Array Destructuring
+- Extract values from an array and assign them to variables 
+
+3. Default values 
+- You can set default values when Destructuring
+
+4. Destructuring in Function Parameters
+- Destructure objects or arrays directly in function parameters
+
+5. Nested Destructuring 
+- Extract values from nested objects or arrays.
+
+6. Skipping Item in Array 
+- Skip elements you don't need 
+
+7. Rest operator in Destructure
+- Collect the remaining properties or elements 
