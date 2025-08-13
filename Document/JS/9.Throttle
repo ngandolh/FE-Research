@@ -1,0 +1,16 @@
+#throttle
+
+1. Define
+- Throttle limits the execution of a function to once every 
+specified time interval, even if the event is triggered continously
+
+2. Useful 
+- Execute the event: scroll, resize, mouse, move,...
+- Reduce UI and Server when the event continously. 
+
+### Summary Table / Bảng tóm tắt
+
+| Technique   | When Function Runs                | Use Case                |
+|-------------|-----------------------------------|-------------------------|
+| Debounce    | Sau khi dừng sự kiện một thời gian | Input, search, auto-save|
+| Throttle    | Đều đặn mỗi khoảng thời gian       | Scroll, resize, mouse   |
