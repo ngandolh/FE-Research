@@ -1,0 +1,8 @@
+#Debounce 
+- Debounce is a technique to delay the execution of a function until after a certain time 
+has passed since the last time it was invoked 
+
+- Useful: 
+ + For optimizing input, search
+ + Resize events 
+ 
