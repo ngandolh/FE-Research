@@ -1,0 +1,21 @@
+# Electron Framework 
+
+1. Structure:
+- Main process: Manages application lifecycle, windows, and can acccess OS features
+- Renderer process: Run the UI (HTML, CSS, JS), similiar to a browser tab.
+Can use framework like ReactJS, Vue, etc...
+
+2. How Electron works
+When you start an Electron app
+1. The main process launches first 
+2. It create browser windows (renderer processes) to display the UI 
+3. Main and renderer processes can communicate via IPC (Inter-Process Communication)
+
+3. Typical Project Structure 
+````````````````````````````````
+your-app/
+├── main.js         // Main process entry
+├── package.json    // Project config
+├── index.html      // UI entry
+├── renderer.js     // Renderer process script
+````````````````````````````````
